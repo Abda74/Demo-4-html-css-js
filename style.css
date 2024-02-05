@@ -1,0 +1,39 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    transition: background-color .7s ease-in;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+
+}
+
+input[type ="color"]{
+    width: 350px;
+    height: 350px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+input[type ="text"]{
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    outline-color: #1caf12;
+}
